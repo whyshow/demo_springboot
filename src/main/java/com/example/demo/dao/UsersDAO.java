@@ -16,6 +16,4 @@ public interface UsersDAO {
      */
     @Select("select * from users")
     List<UsersModel> selectAll();
-
-
 }

@@ -1,7 +1,6 @@
 package com.example.demo.model;
 
 public class UsersModel{
-
     private long usersId;
     private String usersName,usersToken;
 

@@ -10,9 +10,7 @@ import java.util.List;
 public class UsersService {
     @Autowired
     private UsersDAO usersDAO;
-
     public List<UsersModel> selectAll(){
         return usersDAO.selectAll();
     }
-
 }

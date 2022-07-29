@@ -6,7 +6,6 @@ public class BaseModel {
         this.msg = msg;
         this.object = object;
     }
-
     private boolean state;
     private String msg;
     private Object object;
